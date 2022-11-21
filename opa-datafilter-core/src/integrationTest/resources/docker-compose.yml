@@ -14,7 +14,7 @@ services:
       - "3306:3306"
 
   postgresql-database:
-    image: postgres:12.1
+    image: postgres:12.13
     restart: always
     environment:
       POSTGRES_USER: admin
