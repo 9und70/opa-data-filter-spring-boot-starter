@@ -28,7 +28,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 @SpringBootTest(classes = {TestConfiguration.class})
 public class DataFilterIT {
 
+    /* */
     private static final String DOCKER_COMPOSE_YML = "src/integrationTest/resources/docker-compose.yml";
+    /* OPA EndPoint*/
     private static final String POLICY_ENDPOINT = "/v1/policies";
     private static final String MARIA_DB = "maria-database_1";
     private static final String POSTGRESQL_DB = "postgresql-database_1";
